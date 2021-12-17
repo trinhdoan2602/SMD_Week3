@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./elements/header %>
+</head>
+
+<body>
+    <div id="wrapper">
+        <% include ./elements/navbar %>
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <% include ./elements/title-page %>
+                    <%- body %>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <% include ./elements/script %>
+
+</body>
+
+</html>
